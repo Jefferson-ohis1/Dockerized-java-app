@@ -38,7 +38,7 @@ RUN mvn clean package -DskipTests
 - Builds the application
 - Generates a JAR file inside the target/ directory
 
-- Runtime Stage
+## Runtime Stage
 FROM eclipse-temurin:17-jdk-jammy
 
 WORKDIR /app
