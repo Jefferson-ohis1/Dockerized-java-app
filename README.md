@@ -22,7 +22,9 @@ This project demonstrates:
 - Eclipse Temurin JDK 17
 
 ## Dockerfile Explanation
-- The application uses a multi-stage Docker build: Build Stage
+- The application uses a multi-stage Docker build:
+
+## Build Stage
 
 FROM maven:3.8.4-openjdk-17-slim AS build
 
