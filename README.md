@@ -87,11 +87,11 @@ ENTRYPOINT ["java", "-jar", "app.jar"]
 - Run Pulled Image: docker run -d --name my-java-app-container -p 5050:8081 jeffersonohis1/java-image:v1.0.0
 
 ## Project Structure
-├── src/
-├── target/
-├── Dockerfile
-├── pom.xml
-└── README.md
+- src/
+- target/
+- Dockerfile
+- pom.xml
+- README.md
 
 ## Author
 Jefferson Ohis
